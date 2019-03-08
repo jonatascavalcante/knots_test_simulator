@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+	<head>
+		<title>CBMMG - Sorteio de Nós</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="constants.js"></script>
+  		<script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="flipclock/flipclock.css">
+        <script src="flipclock/flipclock.js"></script>
+	</head>
+
+  <body>
+    <input type="button" value="Sortear Nós" onclick="generateNodes()"/>
+    <div id="content" style="display:none">
+        <p id="nodes">
+        <div class="clock" style="margin: 2em;"></div>
+        <button class="start">Iniciar tempo</button>
+        <button class="stop">Parar tempo</button>
+        <button class="reset">Reiniciar teste</button>
+        <button class="result">Averiguar resultado</button>
+        <div id="row"/>
+    </div>
+  </body>
+</html>
